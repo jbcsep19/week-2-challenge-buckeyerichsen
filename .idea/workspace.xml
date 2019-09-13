@@ -5,6 +5,8 @@
       <change afterPath="$PROJECT_DIR$/../Array to Remember/Array to Remember.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Array to Remember/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Array/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chipotle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/HashMap.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Looping/Looping.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Looping/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Loops/.idea/vcs.xml" afterDir="false" />
@@ -15,6 +17,8 @@
       <change afterPath="$PROJECT_DIR$/../PrimeNumbersPart3/PrimeNumbersPart3.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chipotle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chipotle/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProgramDesignPseudocodeAlgorithms.txt" beforeDir="false" />
     </list>
@@ -33,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="192">
+              <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,16 +65,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="708" />
-    <option name="y" value="151" />
+    <option name="x" value="673" />
+    <option name="y" value="135" />
     <option name="width" value="1115" />
     <option name="height" value="832" />
   </component>
@@ -139,18 +136,17 @@
       <option name="presentableId" value="Default" />
       <updated>1568315197851</updated>
       <workItem from="1568315201759" duration="5350000" />
-      <workItem from="1568380637987" duration="2735000" />
+      <workItem from="1568380637987" duration="9583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8085000" />
+    <option name="totallyTimeSpent" value="14933000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="708" y="151" width="1115" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="673" y="135" width="1115" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25402844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.036018956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -159,7 +155,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32904148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51216024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -167,7 +163,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32904148" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -187,8 +183,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="192">
+          <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

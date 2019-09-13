@@ -15,6 +15,7 @@ public class Main {
 
         Random r = new Random();
 
+
         for (int i = 1; i < 11; i++) {
 
             String burrito = ("Burrito " + i + ": "
@@ -26,9 +27,14 @@ public class Main {
 
             newList.add(burrito);
 
-            System.out.println(burrito);
+
+
 
 
         }
+        newList.forEach(i -> System.out.println(i));
+
+
+
     }
 }

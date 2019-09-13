@@ -1,14 +1,14 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<String> newList = new ArrayList<>();
+        ArrayList<String> burritosList = new ArrayList<>();
 
-        for (int i = 1; i < 26; i++) {
 
-            Random r = new Random();
         String[] rice = {"white rice, ", "brown rice, ", "no rice, "};
         String[] meat = {"chicken meat, ", "steak meat, ", "carnidas meat, ", "chorizo meat, ", "sofritas meat, ", "veggies, "};
         String[] beans = {"pinto beans, ", "black beans, ", "no beans, "};
@@ -19,52 +19,40 @@ public class Main {
         String[] queso = {"yes queso,  ", "no queso,  "};
         String[] sourcream = {"yes sourcream,  ", "no sourcream,  "};
 
-            int a = r.nextInt(rice.length);
-            int b = r.nextInt(meat.length);
-            int c = r.nextInt(beans.length);
-            int d = r.nextInt(salsa.length);
-            int e = r.nextInt(veggies.length);
-            int f = r.nextInt(cheese.length);
-            int g = r.nextInt(guac.length);
-            int h = r.nextInt(queso.length);
-            int j = r.nextInt(sourcream.length);
+        Random r = new Random();
+
+        ArrayList<String[]> foodsList = new ArrayList<>(Arrays.asList(rice, meat, beans, salsa, veggies, cheese, guac, queso, sourcream));
+//        this loop creates 25 burritos
+        for (int x=1; x <= 25; x++) {
+
+            String burrito = "Burrito" + x + ": ";
+
+            double thisBurritosIngredients = ThreadLocalRandom.current().nextInt(5, 10);
+            // this loops through each foods list in the foodslist arraylist and gets the size and food
+            for (int i = 0; i < thisBurritosIngredients; i++) {
+//              creates a random int for the length of the array inside foodlist
+                int randomFoodInt = r.nextInt(foodsList.get(i).length);
+//              takes random int and gets a food
+                String food = foodsList.get(i)[randomFoodInt];
+//                      takes current burrito string and adds food to it
+                burrito = burrito + food;
+            }
+//           adds price to burrito
+            burrito = burrito + "\n$" + thisBurritosIngredients * .5 + "0";
+
+            burritosList.add(burrito);
+        }
 
 
+                burritosList.forEach(i -> System.out.println(i));
 
 
-
-            newList.add(rice[a]);
-            newList.add(meat[b]);
-            newList.add(beans[c]);
-            newList.add(salsa[d]);
-            newList.add(veggies[e]);
-            newList.add(cheese[f]);
-            newList.add(guac[g]);
-            newList.add(queso[h]);
-            newList.add(sourcream[j]);
-
-            Main obj = new Main();
-
-            int numberOfElements= 5 + r.nextInt(9);
-
-            System.out.println("burrito" + i + ": ");
-
-//            System.out.println(Main.getrandomElement(newList,numberOfElements));
-
-
-
-
-
-
-
-
-
-
-
+            }
         }
 
 
 
 
-    }
-}
+
+
+
